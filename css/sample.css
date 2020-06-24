@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    color: darkslategrey;
+    font: 17px/1.3em sans-serif;
+    margin: 1em auto;
+    max-width: 40em;
+    padding: 3em;
+    border-top: 3px solid lightgray;
+    border-bottom: 3px solid lightgrey;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.3em 0.4em;
+    background-color: gainsboro;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+nav a.current {
+    font-weight: bold;
+    background-color:darkcyan;
+    color: white;
+}
+
+nav a:hover {
+    background-color: burlywood;
+    color: black;
+}
+
+footer {
+    color: darkgray;
+    font-size: 0.8em;
+    margin-top: 2em;
+    padding-top: 1em;
+}
